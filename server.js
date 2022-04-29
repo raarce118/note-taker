@@ -1,9 +1,9 @@
 const { urlencoded } = require('express');
-const { db } = require ('./db/db.json')
+const { db } = requre('./db/db.json')
 const fs = require('fs');
 const path = require('path');
 const express = require('express');
-const app = express ();
+const app = express();
 const apiRoutes = require("./routes/apiRoutes");
 const htmlRoutes = require("./routes/htmlRoutes")
 
