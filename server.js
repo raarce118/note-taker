@@ -1,5 +1,4 @@
 const { urlencoded } = require('express');
-const { db } = requre('./db/db.json')
 const fs = require('fs');
 const path = require('path');
 const express = require('express');
