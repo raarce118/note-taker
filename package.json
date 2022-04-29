@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/raarce118/note-taker/issues"
   },
-  "homepage": "https://github.com/raarce118/note-taker#readme"
+  "homepage": "https://github.com/raarce118/note-taker#readme",
+  "dependencies": {
+    "express": "^4.18.0"
+  }
 }
