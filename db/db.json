@@ -1,3 +1,12 @@
+[
 {
-    "notes": []
+    "title":"Test Title",
+    "text":"Test text",
+    "id": "1"
+  },
+  {
+    "title":"Lunch Break",
+    "text":"Test text",
+    "id": "2"
   }
+]
