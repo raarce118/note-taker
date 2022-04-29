@@ -4,7 +4,7 @@ const path = require('path');
 const router = require('express').Router();
 
 router.get('/notes', (req, res) => {
-    fs.readFile('.db/db.json', "utf8", (error, response) => {
+    fs.readFile('./db/db.json', "utf8", (error, response) => {
         if (error) throw error;
         console.log("retrieved data from file", response);
         const data = JSON.parse(response);
