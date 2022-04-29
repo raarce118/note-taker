@@ -1,4 +1,7 @@
 const { urlencoded } = require('express');
+const { db } = require ('./db/db.json')
+const fs = require('fs');
+const path = require('path');
 const express = require('express');
 const app = express ();
 const apiRoutes = require("/routes/api-routes");
@@ -14,7 +17,7 @@ app.use(express.static('public'));
 
 
 app.use('/api', apiRoutes)
-app.use('/api', htmlRoutes)
+app.use('/', htmlRoutes)
 
 app.listen( PORT,
     
